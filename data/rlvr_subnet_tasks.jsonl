@@ -1,0 +1,4 @@
+{"prompt": "Return JSON for 192.0.2.64/26 with keys network, broadcast, prefixlen, usable_hosts.", "cidr": "192.0.2.64/26"}
+{"prompt": "Return JSON for 10.10.8.0/21 with keys network, broadcast, prefixlen, usable_hosts.", "cidr": "10.10.8.0/21"}
+{"prompt": "Return JSON for 172.16.32.128/27 with keys network, broadcast, prefixlen, usable_hosts.", "cidr": "172.16.32.128/27"}
+{"prompt": "Return JSON for 198.51.100.0/25 with keys network, broadcast, prefixlen, usable_hosts.", "cidr": "198.51.100.0/25"}

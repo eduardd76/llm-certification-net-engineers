@@ -1,0 +1,5 @@
+{"id": "challenge-01", "prompt": "A directly connected OSPF peer stays in EXSTART after a maintenance window. The links are up. Give three verification steps before changing configuration.", "expected_keywords": ["MTU", "network type", "database"]}
+{"id": "challenge-02", "prompt": "A VXLAN endpoint is learned on Leaf-1, but Leaf-2 cannot reach it. Give a control-plane-first troubleshooting sequence.", "expected_keywords": ["EVPN", "route", "VTEP", "VNI", "underlay"]}
+{"id": "challenge-03", "prompt": "A BGP session is established, but a customer prefix is absent. What evidence do you collect before touching policy?", "expected_keywords": ["originate", "advertis", "policy", "received"]}
+{"id": "challenge-04", "prompt": "Small pings cross an IPsec-style tunnel but full-size traffic fails. What is your leading hypothesis and what do you verify?", "expected_keywords": ["MTU", "overhead", "ICMP"]}
+{"id": "challenge-05", "prompt": "Explain why finetuning a model with today's router configs is usually inferior to runtime retrieval.", "expected_keywords": ["dynamic", "retriev", "runtime", "behavior"]}

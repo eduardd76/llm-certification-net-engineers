@@ -1,0 +1,384 @@
+{
+  "module1": [
+    [
+      "What is the best description of fine-tuning?",
+      [
+        "Adding current facts to the prompt",
+        "Updating model parameters using training data",
+        "Calling an external tool",
+        "Vector search"
+      ],
+      1
+    ],
+    [
+      "Which term describes the raw score before softmax?",
+      [
+        "Embedding",
+        "Logit",
+        "Gradient",
+        "Reward"
+      ],
+      1
+    ],
+    [
+      "Why is a context window not the same as memory?",
+      [
+        "It is only the tokens available to the current model call",
+        "It changes weights",
+        "It is a vector DB",
+        "It is always persistent"
+      ],
+      0
+    ],
+    [
+      "Which task is least suitable for an LLM?",
+      [
+        "Summarize incident notes",
+        "Explain BGP state",
+        "Exact CIDR containment check",
+        "Interpret a vague ticket"
+      ],
+      2
+    ],
+    [
+      "What does backpropagation compute?",
+      [
+        "Routing tables",
+        "Gradients",
+        "Embeddings only",
+        "Tool schemas"
+      ],
+      1
+    ]
+  ],
+  "module2": [
+    [
+      "What is the main purpose of RAG?",
+      [
+        "Change model weights",
+        "Retrieve external context at inference time",
+        "Quantize a model",
+        "Train a reward model"
+      ],
+      1
+    ],
+    [
+      "Which retrieval mode is strongest for exact error codes?",
+      [
+        "Dense only",
+        "Sparse/keyword",
+        "Temperature sampling",
+        "LoRA"
+      ],
+      1
+    ],
+    [
+      "What is a reranker?",
+      [
+        "A second-stage relevance ordering component",
+        "A tokenizer",
+        "A GPU scheduler",
+        "A reward model for RL"
+      ],
+      0
+    ],
+    [
+      "Why is GraphRAG attractive for networking?",
+      [
+        "Networks are naturally relational graphs",
+        "It removes all hallucinations",
+        "It replaces NetBox",
+        "It is just a bigger vector DB"
+      ],
+      0
+    ],
+    [
+      "What should hold current interface state?",
+      [
+        "Model weights",
+        "RAG/tool source of truth",
+        "LoRA rank",
+        "Tokenizer vocabulary"
+      ],
+      1
+    ],
+    [
+      "What does reciprocal rank fusion combine?",
+      [
+        "Model weights",
+        "Multiple ranked retrieval lists",
+        "LoRA adapters",
+        "Tool schemas"
+      ],
+      1
+    ],
+    [
+      "What is HyDE used for?",
+      [
+        "Quantization",
+        "Retrieval using a hypothetical document/answer representation",
+        "RL reward modeling",
+        "Model serving"
+      ],
+      1
+    ]
+  ],
+  "module3": [
+    [
+      "What should SFT data primarily teach?",
+      [
+        "Dynamic inventory",
+        "Stable behavior and task mappings",
+        "Today's BGP neighbors",
+        "Secrets"
+      ],
+      1
+    ],
+    [
+      "What is LoRA?",
+      [
+        "A vector DB",
+        "Low-rank trainable updates on a frozen base model",
+        "A tokenizer",
+        "An RL algorithm"
+      ],
+      1
+    ],
+    [
+      "What is QLoRA?",
+      [
+        "LoRA on a quantized base model",
+        "Quantized RAG",
+        "RLHF with queries",
+        "GraphRAG with LoRA"
+      ],
+      0
+    ],
+    [
+      "Why is falling training loss insufficient?",
+      [
+        "It does not prove held-out correctness or safety",
+        "Loss is irrelevant",
+        "Loss only measures latency",
+        "It means the model is broken"
+      ],
+      0
+    ],
+    [
+      "What is train/test leakage?",
+      [
+        "Using the same GPU twice",
+        "Test information entering training/development",
+        "Using mixed precision",
+        "A bad tokenizer"
+      ],
+      1
+    ],
+    [
+      "Which is primarily a model file/runtime ecosystem format?",
+      [
+        "DPO",
+        "GGUF",
+        "RAG",
+        "MCP"
+      ],
+      1
+    ],
+    [
+      "Which method uses activation behavior to guide weight quantization?",
+      [
+        "AWQ",
+        "DPO",
+        "PPO",
+        "RRF"
+      ],
+      0
+    ]
+  ],
+  "module4": [
+    [
+      "What does DPO train from?",
+      [
+        "Only raw RFC text",
+        "Chosen/rejected preference pairs",
+        "Network graphs",
+        "Embeddings"
+      ],
+      1
+    ],
+    [
+      "What is a reward model?",
+      [
+        "A model that scores desirability",
+        "A tokenizer",
+        "A vector DB",
+        "A telemetry agent"
+      ],
+      0
+    ],
+    [
+      "Which is best suited to RLVR?",
+      [
+        "Subjective style preference",
+        "Exact subnet JSON",
+        "Brand tone",
+        "Creative explanation"
+      ],
+      1
+    ],
+    [
+      "What is reward hacking?",
+      [
+        "The model exploits the metric instead of the real intent",
+        "GPU failure",
+        "Dataset corruption only",
+        "Prompt caching"
+      ],
+      0
+    ],
+    [
+      "What is distillation?",
+      [
+        "Compressing logs",
+        "Training a student from a stronger teacher signal",
+        "Quantization only",
+        "RAG chunking"
+      ],
+      1
+    ]
+  ],
+  "module5": [
+    [
+      "What should the model do when current BGP state is required?",
+      [
+        "Guess",
+        "Call an authorized tool",
+        "Fine-tune",
+        "Use temperature 0"
+      ],
+      1
+    ],
+    [
+      "What is an agent?",
+      [
+        "Any chatbot",
+        "A bounded loop with state, actions/tools, observations and termination",
+        "Only a multi-model system",
+        "A vector DB"
+      ],
+      1
+    ],
+    [
+      "What is MCP mainly for?",
+      [
+        "Agent-to-agent delegation only",
+        "Connecting AI applications to tools/data/context providers",
+        "Fine-tuning",
+        "GPU scheduling"
+      ],
+      1
+    ],
+    [
+      "What is A2A mainly for?",
+      [
+        "Embedding search",
+        "Agent-to-agent interoperability",
+        "Quantization",
+        "Prompt templates"
+      ],
+      1
+    ],
+    [
+      "What is a termination condition?",
+      [
+        "A rule that stops an agent loop",
+        "A loss function",
+        "A tokenizer setting",
+        "A retrieval metric"
+      ],
+      0
+    ]
+  ],
+  "module6": [
+    [
+      "Which mechanism should approve a production change?",
+      [
+        "Model confidence alone",
+        "Policy/authorization plus human or governed approval",
+        "Vector similarity",
+        "LoRA rank"
+      ],
+      1
+    ],
+    [
+      "Why use a digital twin?",
+      [
+        "To replace all production telemetry",
+        "To test selected properties in an isolated environment",
+        "To increase token count",
+        "To store embeddings"
+      ],
+      1
+    ],
+    [
+      "What is TTFT?",
+      [
+        "Training time for fine-tuning",
+        "Time to first token",
+        "Total tool failure threshold",
+        "Token transfer format"
+      ],
+      1
+    ],
+    [
+      "What is a release gate?",
+      [
+        "A set of promotion criteria before deployment",
+        "A prompt template",
+        "An attention mask",
+        "A retrieval chunk"
+      ],
+      0
+    ],
+    [
+      "What should be traced in production?",
+      [
+        "Only final answer",
+        "Model, retrieval, tools, validators, approvals and outcomes",
+        "Only GPU utilization",
+        "Only prompts"
+      ],
+      1
+    ],
+    [
+      "What should CI test after changing a retrieval index?",
+      [
+        "Only GPU temperature",
+        "Retrieval and end-to-end golden-set metrics",
+        "Only training loss",
+        "Nothing"
+      ],
+      1
+    ],
+    [
+      "What is indirect prompt injection?",
+      [
+        "A model quantization error",
+        "Malicious instructions arriving through retrieved/tool content",
+        "A network loop",
+        "A tokenizer bug"
+      ],
+      1
+    ],
+    [
+      "Which runtime/ecosystem is strongly associated with GGUF?",
+      [
+        "llama.cpp",
+        "Neo4j",
+        "Kafka",
+        "Pandas"
+      ],
+      0
+    ]
+  ]
+}
